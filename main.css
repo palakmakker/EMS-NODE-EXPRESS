@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+:root{
+    --white: #ddd;
+    --dark: #111;
+    --darkGrey: #474b4f;
+    --lightGrey: #6b6e70;
+    --lightGreen: #86c232;
+    --darkGreen: #61892f;
+    --transition: all 0.5s ease;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    line-height: 1.6;
+}
+img{
+    width: 100%;
+    display: block;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 15px 0;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 90vw;
+    margin: 0 auto;
+}
+.btn{
+    background: var(--darkGreen);
+    border: none;
+    display: block;
+    width: 150px;
+    text-align: center;
+    color: var(--darkWhite);
+    
+    font-size: 15px;
+    padding: 12px;
+    border: 2px solid var(--darkGreen);
+    border-radius: 25px;
+    margin: 15px 0;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:4%;
+    margin-bottom:0%;
+    transition: var(--transition);
+
+}
+
+.btn:hover{
+    background: var(--darkGreen);
+    color: #fff;
+}
+
+.header{
+    min-height: 85vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("header.jpg") center/cover no-repeat;
+    color: #fff;
+}
+
+
+.about-content img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+.about-img{
+    background: #fff;
+    width: 150px;
+    height: 150px;
+    margin-left: 600px;
+    border-radius: 50%;
+}
+.about-content h2{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 35px;
+    color: var(--lightGreen);
+}
+.about-content h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 100;
+    background: rgba(255, 255, 255, 0.1);
+    width: 400px;
+    margin: 35px auto;
+    text-align: center;
+}
+blockquote{
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 0.9;
+    width: 60vw;
+    margin: 45px auto 15px auto;
+    text-align: center;
+}
+blockquote span{
+    font-size: 14px;
+    color: var(--darkGreen);
+    font-weight: 300;
+    letter-spacing: 5px;
+    display: block;
+}
+
+
+.footer{
+    background: var(--dark);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer > p{
+    text-align: center;
+    font-size: 14px;
+}
+
+
